@@ -7,7 +7,7 @@ const routes = require("./routes/ToDoRoute");
 require("dotenv").config();
 
 const app = exppress();
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(exppress.json());
 app.use(cors());
